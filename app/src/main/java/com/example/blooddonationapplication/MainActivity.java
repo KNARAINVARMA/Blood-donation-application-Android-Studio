@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
+    // function to filter data
     private void filter(String text) {
         ArrayList<UserModel> filterList = new ArrayList<>();
         for(UserModel item : list) {
